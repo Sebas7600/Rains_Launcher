@@ -1,0 +1,21 @@
+# Visual Studio và file sinh ra khi build
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+**/publish/
+*.user
+*.suo
+
+# Dữ liệu local/nhạy cảm
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+AuthServer/SeedData/users.seed.json
+
+# Server thử nghiệm và game build
+TestServer/
+
+# Ảnh chụp QA tạo trong lúc phát triển
+qa-*.png
